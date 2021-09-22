@@ -9,10 +9,6 @@ public class Post {
     private int date;
     private String text;
 
-    private String setText(String text) {
-        return null;
-    }
-
     private int replyOwnerId;
     private int friendsOnly;
     private CommentsInfo commentsInfo;
@@ -20,8 +16,8 @@ public class Post {
     private LikesInfo likesInfo;
     private RepostsInfo repostsInfo;
     private ViewsInfo viewsInfo;
-    private void postType(String post, String copy, String reply, String postpone, String suggest) {
-        return;}// пример
+
+    private String postType;
 
     private PostSource postSource;
     private Geo geo;
